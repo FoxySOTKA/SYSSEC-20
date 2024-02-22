@@ -33,7 +33,15 @@ PORT     STATE  SERVICE     VERSION
 3306/tcp open   mysql       MySQL (unauthorized)
 8080/tcp open   http        Jetty 8.1.7.v20120910
 ```
-2) 
+2) Ссылки на обнаруженые уязвимости:
+```
+PORT     STATE  SERVICE     VERSION                                                         lINK
+21/tcp   open   ftp         ProFTPD 1.3.5                                                   https://www.exploit-db.com/exploits/37262
+22/tcp   open   ssh         OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0) https://www.exploit-db.com/exploits/45233
+445/tcp  open               Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)                 https://www.exploit-db.com/exploits/42084
+```
+
+
 
 
 ---
