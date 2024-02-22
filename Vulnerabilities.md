@@ -18,10 +18,22 @@
 
 Ответьте на следующие вопросы:
 
-- Какие сетевые службы в ней разрешены?
-- Какие уязвимости были вами обнаружены?
+1) Какие сетевые службы в ней разрешены?
+2) Какие уязвимости были вами обнаружены?
   
 #### Ответ:
+1) Список разрешенных служб:
+```
+PORT     STATE  SERVICE     VERSION
+21/tcp   open   ftp         ProFTPD 1.3.5
+22/tcp   open   ssh         OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+80/tcp   open   http        Apache httpd 2.4.7
+445/tcp  open               Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)
+631/tcp  open   ipp         CUPS 1.7
+3306/tcp open   mysql       MySQL (unauthorized)
+8080/tcp open   http        Jetty 8.1.7.v20120910
+```
+2) 
 
 
 ---
@@ -38,6 +50,9 @@
 - Как отвечает сервер?
 
 #### Ответ:
+-
+-
+
 
 
 ---
